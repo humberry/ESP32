@@ -1,0 +1,25 @@
+1.) Download the Arduino IDE
+https://www.arduino.cc/en/Main/Software
+
+2.) Download the suitable USB-Driver (e.g. CP2102)
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
+3.) Read and follow the instructions
+https://github.com/espressif/arduino-esp32
+
+4.) Configure your Arduino IDE
+https://github.com/humberry/ESP32/blob/master/Arduino.txt
+
+5.) Write your first "Hello World" program
+void setup(){
+  Serial.begin(115200);
+  delay(1000);
+}
+
+void loop(){
+  Serial.println("Hello world.");
+  delay(1000);
+}
+
+6.) Upload (STRG + U)
+7.) Serial Monitor (STRG + SHIFT + M)
