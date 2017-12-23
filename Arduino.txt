@@ -1,0 +1,15 @@
+My ESP32 DevBoard from AZ-Delivery needs this parameters in Arduino:
+
+Board: "ESP32 Dev Module"
+Flash Mode: "QIO"
+Flash Frequency: "80MHz"
+Flash Size: "4MB (32Mb)"
+Upload Speed: "115200"
+Core Debug Level: "None"
+Programmer: "AVRISP mkll"
+
+Arduino-Setup:
+Sketchbook: "C:\Users\<YourName>\Documents\Arduino\"
+
+Put all (manually downloaded) libaries in this path:
+"C:\Users\<YourName>\Documents\Arduino\libraries\"
