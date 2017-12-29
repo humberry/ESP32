@@ -5,7 +5,7 @@ Wire.begin(SDA-Pin, SCL-Pin);
 e.g.
 Wire.begin(32, 33);
 
-If you use the Adafruit_TSL2591 libary you should first comment this line (in the file Adafruit_TSL2591.cpp)
+If you use e.g. the Adafruit_TSL2591 libary you should first comment this line (in the file Adafruit_TSL2591.cpp)
 boolean Adafruit_TSL2591::begin(void)
 {
   //Wire.begin();
@@ -13,3 +13,4 @@ boolean Adafruit_TSL2591::begin(void)
 }
 and write your Wire.begin(x, y) command in your program before you call
 tsl.begin();
+
